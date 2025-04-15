@@ -238,7 +238,7 @@ class HDE(nn.Module):
 
 
 # --- Configuration ---
-MODEL_PATH = 'syntheticSnifferModel.pth' # Use the correct model file name
+MODEL_PATH = '../syntheticSnifferModel.pth' # Use the correct model file name
 LATENT_DIM = 128             # Must match the trained model
 IMAGE_SIZE = 256             # Must match the trained model
  
